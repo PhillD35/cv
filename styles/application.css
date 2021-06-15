@@ -1,0 +1,25 @@
+@import "chota.css";
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+p {
+  max-width: 60ch;
+}
+
+ul {
+  list-style-image: url('./../img/list_marker.svg');
+}
+
+.skillz img + b {
+  margin-left: .3rem;
+}
+
+.skillz img {
+  width: 1em;
+}
+
+.markerless > *::marker {
+  content: '';
+}
