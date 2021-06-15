@@ -1,97 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Резюме - Давид Клименков</title>
+  <meta charset="utf-8">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="styles/application.css">
+  <link rel="icon" href="img/favicon.svg" sizes="any" type="image/svg+xml">
+
+  <title>Резюме - Давид Клименков</title>
 </head>
 <body>
-  <div class="container">
-    <h3>Клименков Давид</h3>
-    <h4>Ruby on Rails разработчик</h4>
+<div class="container">
+  <h1>Давид Клименков</h1>
+  <h2>Ruby on Rails Developer</h2>
 
-    <div class="row">
-      <div class="three columns">
-        <h5>О себе</h5>
-        <ul>
-          <li><b>возраст:</b> 27 лет.</li>
-          <li><b>город:</b> Ноябрьск.</li>
-          <li><b>гражданство:</b> РФ</li>
-        </ul>
-      </div>
-
-      <div class="four columns">
-        <h5>Контакты</h5>
-        <ul>
-          <li><b>телефон:</b> +7-982-177-59-11</li>
-          <li><b>email:</b> mppodk@mail.ru.</li>
-          <li>
-            <b>github:</b> <a href="https://github.com/philld35" target=_blank>philld35</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="five columns">
-        <h5>О вакансии</h5>
-        <ul>
-          <li><b>рабочий день:</b> полный рабочий день.</li>
-          <li><b>переезд:</b> готов обсудить.</li>
-          <li><b>командировки:</b> готов к командировкам.</li>
-        </ul>
-      </div>
+  <div class="row">
+    <div id="about-me" class="col">
+      <h3>Обо мне</h3>
+      <p>
+        Звать меня Давид и я гордый владелец четырёх котов. Будем знакомы! Успешно завершил интенсив <b>Ruby on Rails</b> от славных парней из <a href="https://goodprogrammer.ru/" target="_blank"><b>Хорошего Программиста</b></a> и стремлюсь применить полученные знания на коммерческой практике. Лет мне 27, живу в <b>г. Ноябрьск</b>. Моя <b>цель</b> - хочу стать крутым <b>fullstack</b> разработчиком.
+      </p>
     </div>
 
-    <br/>
+    <div id="contacts" class="col">
+      <h3>Контакты</h3>
 
-    <div class="row">
-      <div class="three columns">
-        <h5>Навыки</h5>
-        <ul>
-          <li>ruby</li>
-          <li>rails</li>
-          <li>html</li>
-          <li>css</li>
-          <li>sqlite</li>
-          <li>git</li>
-        </ul>
-      </div>
-
-      <div class="four columns">
-        <h5>Проекты</h5>
-        <ul>
-          <li>
-            <a href="https://github.com/PhillD35/hangman" target=_blank>Виселица</a>
-          </li>
-          <li>
-            <a href="https://github.com/PhillD35/8ball" target=_blank>Волшебный шар</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="five columns">
-        <div>
-          <h5>Обучение</h5>
-          <p>
-            <a href="https://goodprogrammer.ru" tarket=_blank>Хороший Программист</a>
-            <span> - Rails Garnet 2021</span>
-          </p>
-        </div>
-
-        <br/>
-
-        <div>
-          <h5>Языки</h5>
-          <ul>
-            <li><b>Русский:</b> родной.</li>
-            <li><b>English:</b> upper-intermediate</li>
-          </ul>
-        </div>
-      </div>
+      <ul>
+        <li>Профиль <a href="https://github.com/philld35" target="_blank"><b>Github</b></a></li>
+        <li>Email: <a href="mailto:mppodk@mail.ru"><b>mppodk@mail.ru</b></a></li>
+        <li>Телефон: <a href="tel:+79821775911"><b>+7 (982) 177-59-11</b></a></li>
+      </ul>
     </div>
-
-    <br/>
   </div>
+
+  <div class="row">
+    <div id="skillz" class="row is-full-width skillz">
+
+      <div class="col">
+        <h3>Навыки</h3>
+
+        <p>
+          <img src="./img/ruby.svg"><b>Ruby</b>: понимаю принципы <b>ООП</b>, блюду <b>code style</b>, юзаю <b>gems</b>, шарю в документации. Какой молодец!
+        </p>
+
+        <p>
+          <img src="./img/gems.svg"><b>Gems</b>: знаю <b>Bundle</b>, <b>RSpec</b>, <b>Nokogiri</b>, <b>Mechanize</b>, <b>cli-ui</b>, <b>minitest</b>, <b>Pry</b>, <b>Byebug</b>, <b>SQLite3</b> и много других страшных слов.
+        </p>
+
+        <p>
+          <img src="./img/rails.svg"><b>Rails</b>: Архитектура по <b>MVC</b>, контроллеры по <b>CRUDL</b>, пути по <b>REST</b>. <b>Active Record</b> для БД, <b>Devise</b> для аутентификации, <b>i18n</b> для интернационализации.
+        </p>
+
+        <p>
+          <img src="./img/heroku.svg"><b>Heroku</b>: деплой, логи и всё-всё-всё.
+        </p>
+
+        <p>
+          <img src="./img/git.svg"><b>Git</b>: в коммиты, ветки и мёржи я тоже умею.
+        </p>
+
+        <p>
+          <img src="./img/html.svg"><b>HTML</b>: &lt;<span class="text-error">div</span>&gt;вместит тысячу слов!&lt;<span class="text-error">/div</span>&gt;
+        </p>
+
+        <p>
+          <img src="./img/css.svg"><b>CSS</b>: могу в селекторы, меняю шрифты. Знаю куда применить <b>rem</b>, куда <b>em</b>, куда <b>ch</b>, a куда и вообще <b>px</b>! Готов много учится, чтоб осознанно потыкать в <b>@container</b> в момент их релиза.
+        </p>
+
+        <p>
+          <img src="./img/bootstrap.svg"><b>Bootstrap</b>: изучал документацию, копался в исходниках. Многое понял. Не понял ещё больше. Но менять значение переменных, подпихивать кастомные классы и миксины всё равно могу!
+        </p>
+
+        <p>
+          <img src="./img/chota.ico"><b>Chota</b>: фреймворк может и лёгкий, зато резюме на нём какое здоровское вышло!
+        </p>
+      </div>
+
+      <div class="col">
+        <h3>Ин-яз</h3>
+
+        <ul class="markerless">
+          <li><img src="./img/britain.svg"><b>Английский</b> - upper-intermediate (B2)</li>
+          <li><img src="./img/germany.svg"><b>Немецкий</b> - basic (pre A1)</li>
+          <li><img src="./img/japan.svg"><b>Японский</b> - basic (pre N5)</li>
+        </ul>
+
+        <h3>Курсы</h3>
+
+        <ul>
+          <li><a href="https://goodprogrammer.ru/" target="_blank"><b>Хороший Программист</b></a></li>
+          <li><a href="https://courses.kevinpowell.co/conquering-responsive-layouts" target="_blank"><b>Conquering Responsive Layouts</b></a> by <a href="https://www.kevinpowell.co/"><b>Kevin Powell</b></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
