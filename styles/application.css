@@ -4,10 +4,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-p {
-  max-width: 60ch;
-}
-
 ul {
   list-style-image: url('./../img/list_marker.svg');
 }
@@ -18,6 +14,10 @@ ul {
 
 .skillz img {
   width: 1em;
+}
+
+#education > ul > li {
+  margin-left: calc(1em + .3rem);
 }
 
 .markerless > *::marker {
