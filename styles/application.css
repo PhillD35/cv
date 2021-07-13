@@ -8,6 +8,10 @@ ul {
   list-style-image: url('./../img/list_marker.svg');
 }
 
+small {
+  display: block;
+}
+
 .skillz img + b {
   margin-left: .3rem;
 }
@@ -22,4 +26,8 @@ ul {
 
 .markerless > *::marker {
   content: '';
+}
+
+.container:last-child {
+  padding-bottom: 5rem;
 }
